@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <div class="row mt-4">
+        <div class="mt-4">
 
             <h1 class="mb-4">{{ $comic->titolo }}</h1>
             
@@ -17,7 +17,7 @@
             </div>  
                 
                 
-            <a href="{{ route('comics.index') }}">Ritorna ai fumetti</a>
+            <a href="{{ route('admin.comics.index') }}">Ritorna ai fumetti</a>
             
         </div>
     </div>
